@@ -20,7 +20,7 @@ class ButtonWidget extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(6.0),
         child: SizedBox(
-          height: 70,
+          height: 90,
           child: ElevatedButton(
             onPressed: onPressed,
             style: ElevatedButton.styleFrom(
